@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+}
+header{
+  display: flex;
+}
+.navigation{
+  background-color: #B80000;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
