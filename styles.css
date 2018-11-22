@@ -10,6 +10,12 @@ header{
   display: flex;
   justify-content: space-between;
 }
+.navigation>h1{
+  font-family: 'Alfa Slab One', cursive;
+  width:auto;
+  margin-left: 20px;
+  line-height: 2px:
+}
 nav ul li{
   text-transform: uppercase;
   display: inline-block;
