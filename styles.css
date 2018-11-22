@@ -10,3 +10,10 @@ header{
   display: flex;
   justify-content: space-between;
 }
+nav ul li{
+  text-transform: uppercase;
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 20px;
+  margin-right: 5px;
+}
