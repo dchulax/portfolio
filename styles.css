@@ -7,7 +7,7 @@ header{
   height: 70px;
 }
 .navigation{
-  background-color: #096ab7;
+  background-color: #b80000;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -35,7 +35,8 @@ nav ul li{
 }
 
 #home{
-  background-image: url(img/oraton.jpg);
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   min-height: 600px;
