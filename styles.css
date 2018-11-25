@@ -53,6 +53,20 @@ h2{
   padding-left: 20px;
   margin-right: 20px;
 }
+.code-fun h3{
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+          -webkit-transform: rotate(-3deg);
+             -moz-transform: rotate(-3deg);
+                 background-color: #f3f3f3;
+               -o-transform: rotate(3deg);
+              -ms-transform: rotate(3deg);
+                  transform: rotate(3deg);
+                      margin-bottom: 20px;
+                         margin-top: 20px;
+                         padding-left: 20px;
+}
 .code-fun, h3{
   -webkit-box-shadow: 0 10px 6px -6px #777;
      -moz-box-shadow: 0 10px 6px -6px #777;
@@ -182,9 +196,16 @@ h2{
   transform: rotate(3deg);
 }
 #what-i-do{
-  background-image: url(img/2nd-blaze.jpg);
+  background-image: url(img/live-lion.jpg);
   width: 100%;
   min-height: 600px;
   background-size: cover;
   background-blend-mode: darken;
+}
+.footer{
+  text-align: center;
+  background: #b80000;
+  padding: 10px 0 0 10px;
+  min-height: 30px;
+  color: #fff;
 }
