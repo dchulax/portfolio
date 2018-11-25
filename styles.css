@@ -43,7 +43,7 @@ nav ul li{
 }
 .profile{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 #profile-pic{
   padding-top: 20px;
@@ -64,7 +64,9 @@ nav ul li{
   margin-left: 10px;
   width: 100px;
   height: 90px;
-  float: left;
+  float: right;
+  padding-right: 60px;
+  margin-top: 35px;
 
 }
 #heart::before,
@@ -88,14 +90,21 @@ nav ul li{
   transform-origin: 100% 100%;overflow-y: hidden;
 }
 .contact{
-  float: right;
+  float: left;
   min-width: 500px;
   min-height: 200px;
   background-color: #fff;
-  border-radius: 100px 0 0 100px;
+  border-radius: 0 100px 100px 0;
   bor
 }
 .contact h3{
   float: right;
   padding: 20px;
+}
+
+/*Start of about*/
+about{
+  -webkit-box-shadow: 4px 3px 13px 0px rgba(0,0,0,0.39);
+-moz-box-shadow: 4px 3px 13px 0px rgba(0,0,0,0.39);
+box-shadow: 4px 3px 13px 0px rgba(0,0,0,0.39);
 }
