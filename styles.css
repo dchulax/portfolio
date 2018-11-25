@@ -201,6 +201,17 @@ h2{
   min-height: 600px;
   background-size: cover;
   background-blend-mode: darken;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.img-responsive{
+  width:100%;
+  height: auto;
+  padding: 10px;
+}
+.work{
+  margin: 10px;
 }
 .footer{
   text-align: center;
