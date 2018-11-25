@@ -41,6 +41,9 @@ nav ul li{
   width: 100%;
   min-height: 600px;
 }
+h2{
+  padding-left: 10px;
+}
 .profile{
   display: flex;
   justify-content: flex-end;
@@ -48,6 +51,20 @@ nav ul li{
 #profile-pic{
   padding-top: 20px;
   padding-left: 20px;
+  margin-right: 20px;
+}
+.code-fun, h3{
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+          -webkit-transform: rotate(-3deg);
+             -moz-transform: rotate(-3deg);
+                 background-color: #ffffff;
+               -o-transform: rotate(-3deg);
+              -ms-transform: rotate(-3deg);
+                  transform: rotate(-3deg);
+                  margin-bottom: 20px;
+
 }
 #profile-pic img{
   border-radius: 50%;
@@ -102,10 +119,72 @@ nav ul li{
   padding: 20px;
 }
 
+.title{
+  background-color: #b80000;
+  padding-left: 10px;
+  font-size: 30px;
+  width: 12%;
+  min-width: 100px;
+  color: white;
+}
+
 /*Start of about*/
-about{
-  -webkit-box-shadow: 4px 3px 13px 0px rgba(0,0,0,0.39);
--moz-box-shadow: 4px 3px 13px 0px rgba(0,0,0,0.39);
-box-shadow: 4px 3px 13px 0px rgba(0,0,0,0.39);
-justify-content: space-around;
+#about{
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+
+
+}
+.about-me{
+  display: flex;
+  justify-content: space-around;
+}
+.education-profile, .experience-profile{
+  -webkit-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.39);
+     -moz-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.39);
+          box-shadow: 1px 3px 10px 0px rgba(0,0,0,0.39);
+                                      margin: 30px 10px;
+                                          padding: 20px;
+}
+.program{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+            clear: both;
+            display: flex;
+            justify-content: space-around;
+}
+.program-detail{
+  min-height: 200px;
+  position: relative;
+  background-color: #fff;
+}
+.program::after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  right: 10px;
+  left: auto;
+  width: 50%;
+  top: 90%;
+  max-width: 300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+#what-i-do{
+  background-image: url(img/2nd-blaze.jpg);
+  width: 100%;
+  min-height: 600px;
+  background-size: cover;
+  background-blend-mode: darken;
 }
