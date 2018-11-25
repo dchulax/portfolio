@@ -11,3 +11,5 @@
 {The type of technology used in the application is HTML5 and CSS3 and the styling may look to you as distorted but it is according to the choice of the application design.}
 ##Support and contacts details
 {In case you run into a problem, a bug or something is not working right or have any questions and comments you can reach us using email: tobiasorao@gmail.com and phone: +254 715 655 205.}
+##License
+{The application is under the MIT licensing so the resulting work and usage is under your control and we are not liable of any trouble shouting issues when you manipulate the codes. Copyright &copy: 2018 Tobias Orao}
