@@ -2,6 +2,8 @@
   margin: 0;
 }
 header{
+  width: 100%;
+  position: fixed;
   display: flex;
   color: white;
   height: 70px;
@@ -32,6 +34,16 @@ nav ul li{
   display: inline-block;
   padding-top: 10px;
   margin-right: 5px;
+}
+a{
+  text-decoration: none;
+}
+nav ul li a{
+  color: rgba(255, 255, 255, 0.9);
+}
+nav a:hover{
+  color: rgba(0, 0, 0, 0.5);
+
 }
 
 #home{
@@ -81,6 +93,7 @@ h2{
 
 }
 #profile-pic img{
+  margin-top: 60px;
   border-radius: 50%;
   -moz-box-shadow: #fff solid 2px;
   height: 300px;
